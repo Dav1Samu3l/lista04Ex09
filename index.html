@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Compra de Gêneros Alimentícios</title>
+</head>
+<body>
+  <div class="table-container">
+    <h1>Compra de Gêneros Alimentícios</h1>
+    <form action="scripty.php" method="post">
+      <table class="table">
+        <thead class="table-header">
+          <tr>
+            <th>Produtos</th>
+            <th>Pagamento com cartão de fidelidade?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="table-cell">
+              <label><input type="checkbox" name="produtos[]" value="Arroz"> Arroz</label>
+              <label><input type="checkbox" name="produtos[]" value="Feijão"> Feijão</label>
+              <label><input type="checkbox" name="produtos[]" value="Macarrão"> Macarrão</label>
+              <label><input type="checkbox" name="produtos[]" value="Açúcar"> Açúcar</label>
+            </td>
+            <td class="table-cell">
+              <label><input type="checkbox" name="fidelidade" value="sim"> Sim</label>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button >Finalizar Compra</button>
+    </form>
+  </div>
+</body>
+</html>

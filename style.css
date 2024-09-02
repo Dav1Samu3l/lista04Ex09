@@ -1,0 +1,113 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Nerko One", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Table Styles */
+  
+  .table-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-header {
+    background-color: #f7f7f7;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th,
+  .table td {
+    text-align: left;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .table-container {
+      width: 100%;
+      max-width: none;
+      padding: 10px;
+    }
+  
+    .table th,
+    .table td {
+      padding: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .table {
+      border-collapse: separate;
+      border-spacing: 0;
+      width: 100%;
+    }
+  
+    .table th,
+    .table td {
+      border: none;
+      padding: 2px;
+    }
+  
+    .table-header {
+      background-color: #fff;
+    }
+  }
+  
+  /* Novos estilos */
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
